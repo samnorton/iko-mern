@@ -5,9 +5,11 @@ import resorts from '../resorts'
 const PopularResortsList = () => {
     return (
         <> 
+    <div className="row">
          { resorts.map(resort => <Resort resort={resort} />) }
-               
+     </div>
         </>
+            
     )
 }
 
